@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Oswald", sans-serif;
+}
+.container {
+    width: 90%;
+    margin: auto;
+}
+a {
+    text-decoration: none;
+    color: var(--special-black);
+    display: inline-block;
+}
+img {
+    width: 100%;
+    object-fit: cover;
+}
+:root {
+    --special-white: #ddd;
+    --special-black: #111;
+    --special-blue: rgb(0, 159, 227);
+    --second-title-size: 3rem;
+    --third-title-size: 2rem;
+}
+.btn-read-more {
+    padding: 0.5em 1em;
+    background-color: var(--special-black);
+    color: var(--special-white);
+    transition-property: background;
+    transition-duration: 0.7s;
+}
+.btn-read-more:hover {
+    background-color: var(--special-blue);
+    color: var(--special-white);
+}
